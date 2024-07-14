@@ -8,6 +8,8 @@ Adversarial attacks are a way to fool machine learning models by adding small pe
 
 - **Projected Gradient Descent (PGD)**: This attack is similar to FGSM, but it iteratively applies small perturbations to the input data until the model misclassifies it. This attack is more powerful than FGSM but also more computationally expensive.
 
+You can get more infomation about each by reading the articles [here](./articles).
+
 ## List of attacks implemented:
 
 - [FGSM on MNISt dataset](./FGSM%20on%20MNIST/src.ipynb): This attack is implemented on a simple fully connected neural network trained on the MNIST dataset. The attack is able to fool the model into misclassifying the input data with high confidence. The implementation and idea is taken from this article: [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572).
